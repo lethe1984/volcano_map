@@ -35,7 +35,7 @@ my_bar.empty()
 
 df = pd.DataFrame.from_dict(vol_map_index)
 
-st.title("Active Vulcano Map")
+st.title("Active Volcano Map")
 
 st.map(df, size=60000, zoom=1)
 
